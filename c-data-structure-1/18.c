@@ -3,7 +3,7 @@
 
 void main()
 {
-  setlocale(LC_ALL, "Portuguese");
+  setlocale(LC_ALL, "pt_BR.UTF-8");
 
   int arr[] = {1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 86, 144, 233, 300, 533};
   int length = sizeof(arr) / sizeof(int);

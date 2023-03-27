@@ -3,21 +3,22 @@
 
 void main()
 {
-  setlocale(LC_ALL, "Portuguese");
+  setlocale(LC_ALL, "pt_BR.UTF-8");
 
-  int value, numericalRatio;
+  int primeiro, razao, termo;
 
-  printf("Insira um valor: ", &value);
-  scanf("%d", &value);
+  printf("Digite o primeiro número da sequência: ");
+  scanf("%d", &primeiro);
 
-  printf("Insira a razão numérica: ", &numericalRatio);
-  scanf("%d", &numericalRatio);
+  printf("Digite a razão da sequência: ");
+  scanf("%d", &razao);
 
-  int i;
+  printf("Os dez primeiros termos da sequência são:\n");
 
-  for (i = 0; i <= 10; i++)
+  termo = primeiro;
+  for (int i = 0; i < 10; i++)
   {
-    numericalRatio = value + numericalRatio;
-    printf("%d ", numericalRatio);
+    printf("%d ", termo);
+    termo += razao;
   }
 }

@@ -4,7 +4,7 @@
 
 int main(void)
 {
-  setlocale(LC_ALL, "pt-BR");
+  setlocale(LC_ALL, "pt_BR.UTF-8");
 
   bool logicalValue;
 

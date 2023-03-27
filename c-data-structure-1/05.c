@@ -3,7 +3,7 @@
 
 void main()
 {
-  setlocale(LC_ALL, "Portuguese");
+  setlocale(LC_ALL, "pt_BR.UTF-8");
 
   float firstValue, secondValue;
 
@@ -15,5 +15,5 @@ void main()
 
   float sum = firstValue + secondValue;
 
-  printf("A soma eh:  %f", sum);
+  printf("A soma é:  %f", sum);
 }
